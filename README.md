@@ -8,7 +8,7 @@ Here is what we did in this branch:
 	- Microsoft.EntityFrameworkCore.SqlServer (For SQL Server Databases)
 	- Microsoft.EntityFrameworkCore.Tools
 	- Microsoft.EntityFrameworkCore.Design (optional)
-> If an error in thrown in any installation, ensure the versions installed corresponds with the version of your Dot Net running on your local. You may also need to pay attention to the 'Dependencies' section in each of these packages to ensure all is in order.  
+> If an error is thrown in any installation, ensure the versions installed corresponds with the version of your Dot Net running on your local. You may also need to pay attention to the 'Dependencies' section in each of these packages to ensure all is in order.  
 
 - In the newly created DbContext class, `FinanceAppDbContext`, inherit the base `DbContext` class.
 - Add a constructor that takes in `DbContextOptions<FinanceAppDbContext>options` and passes it to the base class.
