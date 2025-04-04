@@ -1,4 +1,4 @@
-# PersonalFinanceApp
+# Personal Finance App
 
 Here is what we did in this branch:
 
