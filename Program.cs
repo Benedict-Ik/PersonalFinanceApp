@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using PersonalFinanceApp.Data;
+
 namespace PersonalFinanceApp
 {
     public class Program
@@ -8,6 +11,10 @@ namespace PersonalFinanceApp
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            // Registering the DbContext with Dependency Injection
+            builder.Services.AddDbContext<FinanceAppDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
