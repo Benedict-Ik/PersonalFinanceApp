@@ -1,1 +1,3 @@
-"# PersonalFinanceApp" 
+# PersonalFinanceApp
+
+Initialized repository.
