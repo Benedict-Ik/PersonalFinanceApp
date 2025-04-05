@@ -9,4 +9,3 @@ Here is what we did in this branch:
   - I/O operations (e.g., reading/writing files, making network requests such as API calls)
   - Database queries
   - Long-running computations etc.
-- 
