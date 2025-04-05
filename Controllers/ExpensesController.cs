@@ -13,6 +13,7 @@ namespace PersonalFinanceApp.Controllers
             this._appDbContext = appDbContext;
         }
 
+        // Action Method to direct user to Index.cshtml page which basically retrieves a list of all expenses
         public IActionResult Index()
         {
             var expenses = _appDbContext.Expenses.ToList();
