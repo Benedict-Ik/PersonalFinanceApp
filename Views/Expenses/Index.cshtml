@@ -1,0 +1,51 @@
+﻿@model IEnumerable<PersonalFinanceApp.Models.Domain.Expenses>
+@{
+    ViewData["Title"] = "Expenses";
+}
+
+<div class="d-flex justify-content-between">
+    <h2>My Expenses</h2>
+    <a class="btn btn-primary" asp-controller="Expenses" asp-action="Create">Add Expense</a>
+</div>
+
+<div class="container mt-3">
+    <table class="table table-stripped table-bordered">
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Expense ID</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var counter = 1;
+                decimal totalAmount = 0;
+            }
+            @foreach (var item in Model) 
+            {
+                totalAmount += item.Amount;
+                <tr>
+                    <td>@counter</td>
+                    <td>@item.Id</td>
+                    <td>@item.Description</td>
+                    <td>@($"₦{ item.Amount:N2}")</td>
+                    <td>@item.Category</td>
+                    <td>@item.Date.ToString("dd-MM-yyyy")</td>
+                </tr>
+                counter++;
+            }
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="fw-bold">@($"₦{totalAmount:N2}")</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
