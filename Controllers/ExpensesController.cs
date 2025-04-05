@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PersonalFinanceApp.Data;
 using PersonalFinanceApp.Models.Domain;
 
@@ -14,9 +15,9 @@ namespace PersonalFinanceApp.Controllers
         }
 
         // Action Method to direct user to Index.cshtml page which basically retrieves a list of all expenses
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var expenses = _appDbContext.Expenses.ToList();
+            var expenses = await _appDbContext.Expenses.ToListAsync();
             return View(expenses);
         }
 
@@ -28,12 +29,12 @@ namespace PersonalFinanceApp.Controllers
 
         // Action Method to save changes to db
         [HttpPost]
-        public IActionResult Create(Expenses expenses)
+        public async Task<IActionResult> Create(Expenses expenses)
         {
             if (ModelState.IsValid)
             {
-                _appDbContext.Expenses.Add(expenses);
-                _appDbContext.SaveChanges();
+                await _appDbContext.Expenses.AddAsync(expenses);
+                _appDbContext.SaveChangesAsync();
 
                 return RedirectToAction("Index");
             }
