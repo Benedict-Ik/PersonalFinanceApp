@@ -1,23 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using PersonalFinanceApp.Data;
 using PersonalFinanceApp.Models.Domain;
+using PersonalFinanceApp.Services;
 
 namespace PersonalFinanceApp.Controllers
 {
     public class ExpensesController : Controller
     {
-        private readonly FinanceAppDbContext _appDbContext;
+        private readonly IExpensesService _expensesService;
 
-        public ExpensesController(FinanceAppDbContext appDbContext)
+        public ExpensesController(IExpensesService expensesService)
         {
-            this._appDbContext = appDbContext;
+            this._expensesService = expensesService;
         }
 
         // Action Method to direct user to Index.cshtml page which basically retrieves a list of all expenses
         public async Task<IActionResult> Index()
         {
-            var expenses = await _appDbContext.Expenses.ToListAsync();
+            var expenses = await _expensesService.GetAllExpensesAsync();
             return View(expenses);
         }
 
@@ -33,9 +32,7 @@ namespace PersonalFinanceApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _appDbContext.Expenses.AddAsync(expenses);
-                _appDbContext.SaveChangesAsync();
-
+                await _expensesService.AddExpenseAsync(expenses);
                 return RedirectToAction("Index");
             }
             return View();

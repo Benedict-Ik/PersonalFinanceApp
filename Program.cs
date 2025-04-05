@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PersonalFinanceApp.Data;
+using PersonalFinanceApp.Services;
 
 namespace PersonalFinanceApp
 {
@@ -15,6 +16,9 @@ namespace PersonalFinanceApp
             // Registering the DbContext with Dependency Injection
             builder.Services.AddDbContext<FinanceAppDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            // Registering the ExpensesService with Dependency Injection
+            builder.Services.AddScoped<IExpensesService, ExpensesService>();
 
             var app = builder.Build();
 
