@@ -32,11 +32,6 @@ namespace PersonalFinanceApp.Services
             return expense;
         }
 
-        //public async Task UpdateExpenseAsync(Expenses expense)
-        //{
-        //    _appDbContext.Expenses.Update(expense);
-        //    await _appDbContext.SaveChangesAsync();
-        //}
 
         public async Task UpdateExpenseAsync(Expenses updatedExpense)
         {
