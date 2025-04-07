@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iIkhYpIvdYo=",
+  "dgSpecHash": "1M/i/Aaoj2g=",
   "success": true,
   "projectFilePath": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\PersonalFinanceApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\bened\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\bened\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\bened\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\bened\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

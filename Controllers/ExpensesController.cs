@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using PersonalFinanceApp.Models.Domain;
+using PersonalFinanceApp.Models.DTOs;
 using PersonalFinanceApp.Services;
 
 namespace PersonalFinanceApp.Controllers
@@ -8,10 +10,12 @@ namespace PersonalFinanceApp.Controllers
     public class ExpensesController : Controller
     {
         private readonly IExpensesService _expensesService;
+        private readonly IMapper _mapper;
 
-        public ExpensesController(IExpensesService expensesService)
+        public ExpensesController(IExpensesService expensesService, IMapper mapper)
         {
             this._expensesService = expensesService;
+            this._mapper = mapper;
         }
 
         [HttpGet]
@@ -37,22 +41,21 @@ namespace PersonalFinanceApp.Controllers
         }
 
         [HttpPost("Create")]
-        public async Task<IActionResult> Create(Expenses expenses)
+        public async Task<IActionResult> Create(CreateExpenseDTO dto)
         {
             if (!ModelState.IsValid)
-            {
-                return View(expenses);
-            }
+                return View(dto);
 
             try
             {
-                await _expensesService.AddExpenseAsync(expenses);
+                var expense = _mapper.Map<Expenses>(dto);
+                await _expensesService.AddExpenseAsync(expense);
                 return RedirectToAction("Index");
             }
             catch (Exception)
             {
-                ViewBag.ErrorMessage = "Failed to create expense. Please try again.";
-                return View("Error");
+                ModelState.AddModelError("", "Failed to create expense.");
+                return View(dto);
             }
         }
 
@@ -63,35 +66,35 @@ namespace PersonalFinanceApp.Controllers
             {
                 var expense = await _expensesService.GetExpenseByIdAsync(id);
                 if (expense == null)
-                {
                     return NotFound();
-                }
-                return View(expense);
+
+                var dto = _mapper.Map<UpdateExpenseDTO>(expense);
+                return View(dto);
             }
             catch (Exception)
             {
-                ViewBag.ErrorMessage = "Failed to load expense for editing.";
-                return View("Error");
+                ModelState.AddModelError("", "Failed to load expense.");
+                return View();
             }
         }
 
-        [HttpPost("Edit")]
-        public async Task<IActionResult> Update(Expenses expense)
+        //[HttpPost("Edit")]
+        [HttpPost("Update")]
+        public async Task<IActionResult> Edit(UpdateExpenseDTO dto)
         {
             if (!ModelState.IsValid)
-            {
-                return View("Edit", expense);
-            }
+                return View(dto);
 
             try
             {
+                var expense = _mapper.Map<Expenses>(dto);
                 await _expensesService.UpdateExpenseAsync(expense);
                 return RedirectToAction("Index");
             }
             catch (Exception)
             {
-                ViewBag.ErrorMessage = "An error occurred while updating the expense.";
-                return View("Error");
+                ModelState.AddModelError("", "Failed to update expense.");
+                return View(dto);
             }
         }
 
@@ -105,8 +108,8 @@ namespace PersonalFinanceApp.Controllers
             }
             catch (Exception)
             {
-                ViewBag.ErrorMessage = "Failed to delete the expense.";
-                return View("Error");
+                TempData["Error"] = "Failed to delete expense.";
+                return RedirectToAction("Index");
             }
         }
     }

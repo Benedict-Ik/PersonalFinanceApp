@@ -2,16 +2,43 @@
 
 Here is what we did in this branch:
 
-- We added functionalities to **update** and **delete** expenses by defining them in the interface class and implementing them in the service class afterwards.
-- We injected the newly added services in our controller class to implement functionalities and routes for `Edit`, `Update`, and `Delete`.
-- Added a bootstrap icon stylesheet to the _Layout file to make use of specific icons.
-- Updated `Index.cshtml` table to include the action icons with a confirmation popup on delete.
-- Added a new view - `Edit.cshtml` - to edit the expense.
-    - Model Binding: The view starts with @model Expenses, meaning it expects an instance of your Expenses model to populate the form.
-    - Hidden ID Field: A hidden input for the Id ensures that the expense identifier is sent back when the form is posted.
-    - Form Controls: Each field (Description, Amount, Category, Date) is rendered using the asp-for tag helper, which binds the control to the corresponding property on the model. This way, the existing values are automatically populated.
-    - Validation: \<span asp-validation-for="..."> displays any validation errors. The validation scripts are included at the bottom via _ValidationScriptsPartial.
-    - Buttons: The form includes a "Save Changes" submit button and a "Cancel" link that routes back to the Index action.
-- Wrapped the delete icon in a small inline form so that clicking delete posts to the Delete action after confirmation.
-- Modified the `UpdateExpenseAsync` service method.
-- Added error handling in the controller class.
+- Installed AutoMapper via Package Manager Console:
+```bash
+Install-Package AutoMapper
+```
+- Created new model classes - `CreateExpenseDTO` and `UpdateExpenseDTO` to present the data we want the client to see.
+
+- Created a Mapping Profile  
+Create a class (e.g., AutoMapperProfiles.cs) inside a folder like Helpers, Profiles, or Mappings. For our project, we will create a `Mappings` folder.
+```c#
+public class AutoMapperProfiles : Profile
+    {
+        public AutoMapperProfiles()
+        {
+            CreateMap<Expenses, CreateExpenseDTO>().ReverseMap();
+            CreateMap<Expenses, UpdateExpenseDTO>().ReverseMap();
+        }
+    }
+```
+
+- Registered AutoMapper in Program.cs
+Add the below line just above the build() method:
+```C#
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
+```
+
+- Injected and utilized the AutoMapper in the controller class.
+- private readonly IMapper _mapper;
+
+```C#
+public ExpensesController(IMapper mapper)
+{
+    _mapper = mapper;
+}
+```
+
+- Updated the `Edit.cshtml` and `Create.cshtml` views to use the respective DTO models (UpdateExpenseDTO & CreateExpenseDTO).
+- To avoid routing conflicts, I modified the `Update` method's [HTTPPost] attribute in the controller class as seen below:
+```C#
+[HttpPost("Update")]
+```

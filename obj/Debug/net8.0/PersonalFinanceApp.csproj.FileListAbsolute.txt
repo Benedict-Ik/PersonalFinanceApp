@@ -147,3 +147,4 @@ C:\Users\bened\OneDrive\Documents\Projects\CSharp\PersonalFinanceApp\obj\Debug\n
 C:\Users\bened\OneDrive\Documents\Projects\CSharp\PersonalFinanceApp\obj\Debug\net8.0\PersonalFinanceApp.pdb
 C:\Users\bened\OneDrive\Documents\Projects\CSharp\PersonalFinanceApp\obj\Debug\net8.0\PersonalFinanceApp.genruntimeconfig.cache
 C:\Users\bened\OneDrive\Documents\Projects\CSharp\PersonalFinanceApp\obj\Debug\net8.0\ref\PersonalFinanceApp.dll
+C:\Users\bened\OneDrive\Documents\Projects\CSharp\PersonalFinanceApp\bin\Debug\net8.0\AutoMapper.dll

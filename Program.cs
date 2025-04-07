@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PersonalFinanceApp.Data;
+using PersonalFinanceApp.Mappings;
 using PersonalFinanceApp.Services;
 
 namespace PersonalFinanceApp
@@ -19,6 +20,9 @@ namespace PersonalFinanceApp
 
             // Registering the ExpensesService with Dependency Injection
             builder.Services.AddScoped<IExpensesService, ExpensesService>();
+
+            // Registering AutoMapper for Dependency Injection
+            builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
             var app = builder.Build();
 
