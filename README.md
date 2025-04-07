@@ -2,20 +2,16 @@
 
 Here is what we did in this branch:
 
-- It is generally considered a bad practice to access the database directly from the controller class.
-- A service class is a separate class used to access the database and perform business logic.
-- We will create a new folder called `Services` to help store our service classes.
-- When defining a service, we first define an `Interface`, which is a contract that the service class must implement, then the actual `Service` class, which serves as the actual implementation of the defined contract.
-- By convention, when creating your interfaces, it is best to name each method signatures with the suffix `async`.
-- In the main `Service` class, we will inherit from the `Interface` class and implement all the methods defined in the interface.
-- Next, in the `Program.cs` file, we will register the service class with the dependency injection container by adding the below line before the `build` method:
-```C#
-builder.Services.AddScoped<IExpensesService, ExpensesService>();
-```
-- This will ensure that when the `IExpensesService` is injected into the controller class and requested, the `ExpensesService` functionalities will be provided.
-- Finally, we will inject the Iservice class into the controller class constructor and assign it to a private field. This allows us to use the service class methods in our controller methods.
-- Summary of code change:
-    - Interface (IExpensesService): Declares the contract for expense operations.
-    - Service (ExpensesService): Implements the business logic using the DbContext.
-    - Controller: Now depends on the service interface and remains lean.
-    - DI Registration: Ensures the service is available for injection.
+- We added functionalities to **update** and **delete** expenses by defining them in the interface class and implementing them in the service class afterwards.
+- We injected the newly added services in our controller class to implement functionalities and routes for `Edit`, `Update`, and `Delete`.
+- Added a bootstrap icon stylesheet to the _Layout file to make use of specific icons.
+- Updated `Index.cshtml` table to include the action icons with a confirmation popup on delete.
+- Added a new view - `Edit.cshtml` - to edit the expense.
+    - Model Binding: The view starts with @model Expenses, meaning it expects an instance of your Expenses model to populate the form.
+    - Hidden ID Field: A hidden input for the Id ensures that the expense identifier is sent back when the form is posted.
+    - Form Controls: Each field (Description, Amount, Category, Date) is rendered using the asp-for tag helper, which binds the control to the corresponding property on the model. This way, the existing values are automatically populated.
+    - Validation: \<span asp-validation-for="..."> displays any validation errors. The validation scripts are included at the bottom via _ValidationScriptsPartial.
+    - Buttons: The form includes a "Save Changes" submit button and a "Cancel" link that routes back to the Index action.
+- Wrapped the delete icon in a small inline form so that clicking delete posts to the Delete action after confirmation.
+- Modified the `UpdateExpenseAsync` service method.
+- Added error handling in the controller class.

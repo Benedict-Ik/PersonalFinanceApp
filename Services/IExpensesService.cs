@@ -7,5 +7,8 @@ namespace PersonalFinanceApp.Services
         // Method signatures
         Task<IEnumerable<Expenses>> GetAllExpensesAsync();
         Task AddExpenseAsync(Expenses expense);
+        Task<Expenses> GetExpenseByIdAsync(Guid id);
+        Task UpdateExpenseAsync(Expenses expense);
+        Task DeleteExpenseByIdAsync(Guid id);
     }
 }

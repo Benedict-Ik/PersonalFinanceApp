@@ -4,6 +4,7 @@ using PersonalFinanceApp.Services;
 
 namespace PersonalFinanceApp.Controllers
 {
+    [Route("Expenses")]
     public class ExpensesController : Controller
     {
         private readonly IExpensesService _expensesService;
@@ -13,29 +14,100 @@ namespace PersonalFinanceApp.Controllers
             this._expensesService = expensesService;
         }
 
-        // Action Method to direct user to Index.cshtml page which basically retrieves a list of all expenses
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var expenses = await _expensesService.GetAllExpensesAsync();
-            return View(expenses);
+            try
+            {
+                var expenses = await _expensesService.GetAllExpensesAsync();
+                return View(expenses);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "An error occurred while retrieving expenses.";
+                // Optionally log the error here
+                return View("Error");
+            }
         }
 
-        // Action Method to direct user to Create.cshtml page
+        [HttpGet("Create")]
         public IActionResult Create()
         {
             return View();
         }
 
-        // Action Method to save changes to db
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create(Expenses expenses)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+            {
+                return View(expenses);
+            }
+
+            try
             {
                 await _expensesService.AddExpenseAsync(expenses);
                 return RedirectToAction("Index");
             }
-            return View();
+            catch (Exception)
+            {
+                ViewBag.ErrorMessage = "Failed to create expense. Please try again.";
+                return View("Error");
+            }
+        }
+
+        [HttpGet("Edit/{id}")]
+        public async Task<IActionResult> Edit(Guid id)
+        {
+            try
+            {
+                var expense = await _expensesService.GetExpenseByIdAsync(id);
+                if (expense == null)
+                {
+                    return NotFound();
+                }
+                return View(expense);
+            }
+            catch (Exception)
+            {
+                ViewBag.ErrorMessage = "Failed to load expense for editing.";
+                return View("Error");
+            }
+        }
+
+        [HttpPost("Edit")]
+        public async Task<IActionResult> Update(Expenses expense)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Edit", expense);
+            }
+
+            try
+            {
+                await _expensesService.UpdateExpenseAsync(expense);
+                return RedirectToAction("Index");
+            }
+            catch (Exception)
+            {
+                ViewBag.ErrorMessage = "An error occurred while updating the expense.";
+                return View("Error");
+            }
+        }
+
+        [HttpPost("Delete/{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            try
+            {
+                await _expensesService.DeleteExpenseByIdAsync(id);
+                return RedirectToAction("Index");
+            }
+            catch (Exception)
+            {
+                ViewBag.ErrorMessage = "Failed to delete the expense.";
+                return View("Error");
+            }
         }
     }
 }
