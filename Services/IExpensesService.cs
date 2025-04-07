@@ -10,5 +10,7 @@ namespace PersonalFinanceApp.Services
         Task<Expenses> GetExpenseByIdAsync(Guid id);
         Task UpdateExpenseAsync(Expenses expense);
         Task DeleteExpenseByIdAsync(Guid id);
+        IQueryable GetChartData();
+        //List<object> GetChartData();
     }
 }

@@ -112,5 +112,12 @@ namespace PersonalFinanceApp.Controllers
                 return RedirectToAction("Index");
             }
         }
+
+        [HttpGet("GetChart")]
+        public IActionResult GetChart()
+        {
+            var data = _expensesService.GetChartData();
+            return Json(data);
+        }
     }
 }

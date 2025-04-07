@@ -67,6 +67,17 @@ namespace PersonalFinanceApp.Services
             }
         }
 
-
+        public IQueryable GetChartData()
+        {
+            var data =
+                _appDbContext.Expenses
+                .GroupBy(e => e.Category)
+                .Select(g => new
+                {
+                    Category = g.Key,
+                    Total = g.Sum(e => e.Amount)
+                });
+            return data;
+        }
     }
 }
