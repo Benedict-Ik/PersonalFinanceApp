@@ -1,4 +1,5 @@
 # PersonalFinanceApp
 
 Final view of Application:
-![File1](file1.png)
+
+![FinalView](final_view.png)
