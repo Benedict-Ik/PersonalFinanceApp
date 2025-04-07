@@ -2,4 +2,4 @@
 
 Final view of Application:
 
-![File](file.png)
+![App](app.png)
