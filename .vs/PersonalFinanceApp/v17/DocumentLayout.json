@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\readme.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:readme.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\services\\expensesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:services\\expensesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\views\\expenses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:views\\expenses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\views\\expenses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:views\\expenses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\services\\iexpensesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:services\\iexpensesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\models\\domain\\expenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:models\\domain\\expenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\README.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\.vs\\PersonalFinanceApp\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\PersonalFinanceApp\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Views\\Expenses\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Expenses\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Services\\ExpensesService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ExpensesService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Services\\IExpensesService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IExpensesService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Views\\Expenses\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Expenses\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Views\\Expenses\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Expenses\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Controllers\\ExpensesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ExpensesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Models\\Domain\\Expenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Domain\\Expenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,10 +74,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
@@ -86,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Views\\Expenses\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Expenses\\Edit.cshtml",
@@ -94,12 +90,11 @@
               "RelativeToolTip": "Views\\Expenses\\Edit.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T18:58:01.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T18:58:01.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ExpensesService.cs",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Services\\ExpensesService.cs",
               "RelativeDocumentMoniker": "Services\\ExpensesService.cs",
@@ -107,12 +102,11 @@
               "RelativeToolTip": "Services\\ExpensesService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAIwCgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T14:32:20.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T14:32:20.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "IExpensesService.cs",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Services\\IExpensesService.cs",
               "RelativeDocumentMoniker": "Services\\IExpensesService.cs",
@@ -124,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "SQLQuery1.sql",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\.vs\\PersonalFinanceApp\\SQLQuery1.sql",
               "RelativeDocumentMoniker": ".vs\\PersonalFinanceApp\\SQLQuery1.sql",
@@ -143,12 +137,11 @@
               "RelativeToolTip": "Views\\Expenses\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T00:40:16.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T00:40:16.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -160,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Views\\Expenses\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Expenses\\Index.cshtml",
@@ -168,12 +161,11 @@
               "RelativeToolTip": "Views\\Expenses\\Index.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAACIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T15:50:20.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T15:50:20.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ExpensesController.cs",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Controllers\\ExpensesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ExpensesController.cs",
@@ -181,12 +173,11 @@
               "RelativeToolTip": "Controllers\\ExpensesController.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAcwFcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:18:53.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T15:18:53.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -198,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -210,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -222,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Expenses.cs",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Models\\Domain\\Expenses.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Expenses.cs",
@@ -240,10 +231,14 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-04-04T11:00:27.159Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

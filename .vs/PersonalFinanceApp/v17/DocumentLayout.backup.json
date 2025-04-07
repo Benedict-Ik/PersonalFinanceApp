@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\readme.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
       "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:readme.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|solutionrelative:controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B63E661E-7426-4089-B4FA-74DDB1F3E62D}|PersonalFinanceApp.csproj|c:\\users\\bened\\onedrive\\documents\\projects\\csharp\\personalfinanceapp\\services\\expensesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -173,13 +173,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ExpensesController.cs",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Controllers\\ExpensesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ExpensesController.cs",
               "ToolTip": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\Controllers\\ExpensesController.cs",
               "RelativeToolTip": "Controllers\\ExpensesController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwE0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwFcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T15:18:53.549Z",
               "EditorCaption": ""
@@ -234,13 +234,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\README.md",
               "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\README.md*",
-              "RelativeToolTip": "README.md*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\bened\\OneDrive\\Documents\\Projects\\CSharp\\PersonalFinanceApp\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-04-04T11:00:27.159Z",
               "EditorCaption": ""
