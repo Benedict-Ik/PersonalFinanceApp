@@ -1,4 +1,4 @@
-# PersonalFinanceApp
+# Personal Finance App
 
 Final view of Application:
 
